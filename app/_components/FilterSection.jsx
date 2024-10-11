@@ -100,6 +100,7 @@ function FilterSection({setBathCount,setBedCount,setParkingCount,setHomeType}) {
             </SelectItem>
             <SelectItem value="Condo">
                Condo
+               {/* cons */}
             </SelectItem>
           
           
