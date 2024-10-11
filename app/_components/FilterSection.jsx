@@ -5,7 +5,6 @@ import {
     SelectItem,
     SelectTrigger,
     SelectValue,
-  } from "@/components/ui/select"
 import { Bath, Bed, BedDouble, CarFront } from 'lucide-react'
   
 function FilterSection({setBathCount,setBedCount,setParkingCount,setHomeType}) {
@@ -14,7 +13,6 @@ function FilterSection({setBathCount,setBedCount,setParkingCount,setHomeType}) {
     md:flex gap-2'>
         <Select onValueChange={setBedCount}>
         <SelectTrigger className="w-[180px]">
-            <SelectValue placeholder="Bed" />
         </SelectTrigger>
         <SelectContent>
             <SelectItem value="2">
